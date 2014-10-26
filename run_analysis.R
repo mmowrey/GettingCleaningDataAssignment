@@ -1,10 +1,3 @@
-# You should create one R script called run_analysis.R that does the following. 
-# 1.Merges the training and the test sets to create one data set.
-# 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-# 3.Uses descriptive activity names to name the activities in the data set
-# 4.Appropriately labels the data set with descriptive variable names. 
-# 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
 #Step 0. Set working directory
 setwd("C:/Users/markmo/SkyDrive/Learning/DataScience/Course3-GettingAndCleaningData")
 
@@ -62,9 +55,9 @@ setwd("C:/Users/markmo/SkyDrive/Learning/DataScience/Course3-GettingAndCleaningD
       names(slimDataTD3)[1] <- "Activity"
 
       #verifying that Activity corresponds to RowLabel
-      group_by(slimDataTD3, Activity)
-      byActivity <- group_by(slimDataTD3, Activity)
-      summarize (byActivity, mean(RowLabel))
+#       group_by(slimDataTD3, Activity)
+#       byActivity <- group_by(slimDataTD3, Activity)
+#       summarize (byActivity, mean(RowLabel))
 
       #removes RowLabel column
       slimDataTD3 <- select(slimDataTD3, -RowLabel)
