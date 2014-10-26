@@ -10,10 +10,11 @@ The run_analysis.R file:
  * Writes the tidy data set to a SummaryByActivity_Subject.txt file in the working directory
 
 Expected source directory of input files:
-<working directory>/data/project/UCI HAR Dataset/
+
+(working directory)/data/project/UCI HAR Dataset/
+
 
 Input files: 
-
 test/X_test.txt
 
 test/y_test.txt
