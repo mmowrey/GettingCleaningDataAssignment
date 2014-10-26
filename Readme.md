@@ -9,12 +9,14 @@ The run_analysis.R file:
  * Creates a tidy data set of the average for each remaining variable for each activity and subject
  * Writes the tidy data set to a SummaryByActivity_Subject.txt file in the working directory
 
+
 Expected source directory of input files:
 
 (working directory)/data/project/UCI HAR Dataset/
 
 
 Input files: 
+
 test/X_test.txt
 
 test/y_test.txt
@@ -29,9 +31,11 @@ train/subject_train.txt
 
 features.txt
 
+
 Output files:
 
 SummaryByActivity_Subject.txt 
+
 
 Instructions:
 
