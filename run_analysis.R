@@ -61,8 +61,7 @@ setwd("C:/Users/markmo/SkyDrive/Learning/DataScience/Course3-GettingAndCleaningD
 
       #removes RowLabel column
       slimDataTD3 <- select(slimDataTD3, -RowLabel)
-      #slimDataTD3 <- select(slimDataTD3, Subject, Activity, 3:67)
-
+      
 #Step 4. Rename column (variable) headers to more descriptive names
       NewColList <- names(slimDataTD3)
 
