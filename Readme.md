@@ -1,6 +1,4 @@
-run_analysis.R 
-
-The run_analysis.R file:
+<b>The run_analysis.R file:</b>
  * Imports the required data files into R
  * Merges data together to create one data set
  * Extracts desired measurements for mean and standard deviation of each reading
@@ -10,12 +8,12 @@ The run_analysis.R file:
  * Writes the tidy data set to a SummaryByActivity_Subject.txt file in the working directory
 
 
-Expected source directory of input files:
+<b>Expected source directory of input files:</b>
 
 (working directory)/data/project/UCI HAR Dataset/
 
 
-Input files: 
+<b>Input files: </b>
 
 test/X_test.txt
 
@@ -32,12 +30,12 @@ train/subject_train.txt
 features.txt
 
 
-Output files:
+<b>Output files:</b>
 
 SummaryByActivity_Subject.txt 
 
 
-Instructions:
+<b><u>Instructions:</u></b>
 
 1. Open run_analysis.R in R Studio
 
