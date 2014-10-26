@@ -1,6 +1,15 @@
-Data in this database is originates from the Human Activity Recognition Using Smartphones Dataset, created by Smartlab - Non Linear Complex Systems Laboratory (www.smartlab.ws).  It is a derivative of their study of: "experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz."
+Data in this database is originates from the Human Activity Recognition Using Smartphones Dataset, 
+created by Smartlab - Non Linear Complex Systems Laboratory (www.smartlab.ws).  It is a derivative 
+of their study of: "experiments have been carried out with a group of 30 volunteers within an age 
+bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, 
+WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial 
+angular velocity at a constant rate of 50Hz."
 
-This subset of data from the original dataset is tidy data in wide form. Only the mean value and standard deviation columns of the various readings have been retained.  These have been summarized by taking the mean value for each activity and subject.  The resulting set of data is 180 observations of 68 variables.  The original combined set was 10,299 observations of 563 variables.
+This subset of data from the original dataset is tidy data in wide form. Only the mean value and 
+standard deviation columns of the various readings have been retained.  These have been summarized 
+by taking the mean value for each activity and subject.  The resulting set of data is 180 observations
+of 68 variables.  The original combined set was 10,299 observations of 563 variables.
 
 Columns have been renamed to be more descriptive and activity names are called out.
 ----------------------------------------
